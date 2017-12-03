@@ -10,17 +10,37 @@ In this project, we will use deep neural networks and convolutional neural netwo
 
 Goals
 ---
-- Step01: The model can be used to successfully operate the simulation.
-- Step02: Using Python generator in in model.py to generate data with code organized and commented.
-- Step03: Using Convolution layers, filter, nonlinearity, data normalizarion into the model.
-- Step04: Using Train/validation/test for splits and methods to reduce overfitting in the model(dropout/others).
-- Step05: Using learning rate or Adam optimizer for overfitting.
-- Step06: Training data chosen to keep the car on the track.
-- Step07: Document the approach for deriving and designing a solution(model architecture fit).
-- Step08: Document the model architecture type used, layers, size using visualizations each qualities.
-- Step09: Document and provide sample how the model was trained and its dataset characteristics.
-- Step10: In Simulator No tire may leave the drivable portion of the track surface.
-- Step11: Can the model work for car to stay on the road for *track two* as well
+- Required Files
+  - Is the code functional?
+    - The model can be used to successfully operate the simulation.
+- Quality of Code
+  - Is the code usable and readable?
+    - Python generator used if needed
+    - Code is clearly organized
+    - Code is commented where needed    
+- Model Architecture and Training Strategy
+  - Has an appropriate model architecture been employed for the task?
+    - Neural network uses convolution layers
+    - Uses appropriate filter sizes
+    - Nonlinearity using layers
+    - Data is normalized
+  - Has an attempt been made to reduce overfitting of the model?
+    - Split Train/validation/test data
+    - Using Dropout/other methods to reduce overfitting 
+  - Have the model parameters been tuned appropriately?
+    - Learning rate parameters are chosen with explanation, or an Adam optimizer is used.
+  - Is the training data chosen appropriately?
+    - Training data chosen to keep the car on the track
+- Architecture and Training Documentation
+  - Is the solution design documented?
+    - Document the approach for deriving and designing a solution(model architecture fit)
+    - Document the model architecture type used, layers, size using visualizations each qualities
+    - Document and provide sample how the model was trained and its dataset characteristics
+- Simulation
+  - Is the car able to navigate correctly on test data?
+    - In Simulator No tire may leave the drivable portion of the track surface
+- Track Two
+  - Can the model work for car to stay on the road for **track two** as well
 
 Approach
 ---
