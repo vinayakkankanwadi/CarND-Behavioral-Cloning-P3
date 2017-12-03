@@ -25,11 +25,11 @@ Goals
 FILES
 ---
 To meet specifications, the project will require submitting five files: 
-- model.py (script used to create and train the model)
-- drive.py (script to drive the car - this file is unchanged)
-- model.h5 (a trained Keras model)
+- [model.py](./model.py) (script used to create and train the model)
+- [drive.py](./drive.py) (script to drive the car - this file is unchanged)
+- [model.h5](./model.h5) (a trained Keras model)
 - [README.md](./README.md) (a report writeup markdown file)
-- video.mp4 (a video recording of vehicle driving autonomously around the track for at least one full lap)
+- [video.mp4](./video.mp4) (a video recording of vehicle driving autonomously around the track for at least one full lap)
 
 NOTE:
 * simulator
