@@ -28,7 +28,7 @@ Approach
 - Model: Design, train and validate a model to predicts a steering angle from image data.
 - Test: Use the model to drive the vehicle autonomously around the first track in the simulator. 
 - Document: Summarize the results in an written report.
-  **NOTE: The vehicle should remain on the road for an entire loop around the track.**
+</br> **NOTE: The vehicle should remain on the road for an entire loop around the track.**
 
 Result
 ---
