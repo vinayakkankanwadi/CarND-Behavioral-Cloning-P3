@@ -80,7 +80,10 @@ Quality of Code: Usable and Readable Code
 
 Model Architecture and Training Strategy: Appropriate model architecture
 ---
-![](./writeup-images/model-summary.png)
+Track1                     |  Track2
+ :-------------------------:|:-------------------------:
+ <img src="./writeup-images/model-summary.png" width="320" height="160" alt="Track1" /> |  <img src="./writeup-images/model-summary.png" width="320" height="160" alt="Track1" />
+
 
 The neural network uses convolution layers with appropriate filter sizes. Layers exist to introduce nonlinearity into the model. The data is normalized in the model.
 
