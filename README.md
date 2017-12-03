@@ -11,9 +11,11 @@ In this project, we will use deep neural networks and convolutional neural netwo
 Goals
 ---
 - Required Files
+  - Are all required files submitted?
+    - Includes a model.py file, drive.py, model.h5 a writeup report and video.mp4.
+- Quality of Code
   - Is the code functional?
     - The model can be used to successfully operate the simulation.
-- Quality of Code
   - Is the code usable and readable?
     - Python generator used if needed
     - Code is clearly organized
