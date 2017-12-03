@@ -36,7 +36,7 @@ Result
  :-------------------------:|:-------------------------:
  <img src="writeup-images/track1.gif" width="320" height="160" alt="Track1" /> |  <img src="writeup-images/track2.gif" width="320" height="160" alt="Track1" />
 
-Files
+Required Files
 ---
 - [model.py](./model.py) (script used to create and train the model)
 - [drive.py](./drive.py) (script to drive the car - this file is unchanged)
