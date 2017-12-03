@@ -81,9 +81,9 @@ Quality of Code: Usable and Readable Code
 Model Architecture and Training Strategy: Appropriate model architecture
 ---
 [NVIDIA REFERENCE](https://devblogs.nvidia.com/parallelforall/deep-learning-self-driving-cars/)
-[NVIDIA CNN](https://devblogs.nvidia.com/parallelforall/wp-content/uploads/2016/08/cnn-architecture-624x890.png)
-MODIFIED NVIDIA CNN USED
-<img src="./writeup-images/model-summary.PNG" width="788" height="594">
+</br>[NVIDIA CNN](https://devblogs.nvidia.com/parallelforall/wp-content/uploads/2016/08/cnn-architecture-624x890.png)
+</br>MODIFIED NVIDIA CNN USED
+</br><img src="./writeup-images/model-summary.PNG" width="788" height="594">
 
 The neural network uses convolution layers with appropriate filter sizes. Layers exist to introduce nonlinearity into the model. The data is normalized in the model.
 
