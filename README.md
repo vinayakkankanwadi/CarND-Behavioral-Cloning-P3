@@ -22,11 +22,11 @@ Goals
 - Step10: In Simulator No tire may leave the drivable portion of the track surface.
 - Step11: Can the model work for car to stay on the road for *track two* as well
 
-RESULT
+Result
 ---
 Track1                     |  Track2
 :-------------------------:|:-------------------------:
-!<img src="writeup-images/track1.gif" width="320" height="160" alt="Track1" /> |  !<img src="writeup-images/track2.gif" width="320" height="160" alt="Track1" />
+<img src="writeup-images/track1.gif" width="320" height="160" alt="Track1" /> |  <img src="writeup-images/track2.gif" width="320" height="160" alt="Track1" />
 
 FILES
 ---
