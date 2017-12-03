@@ -6,6 +6,7 @@ import sklearn			 #for yield, util etc
 from sklearn.model_selection import train_test_split    # split train test data
 
 #for model
+import keras
 from keras.models import Sequential, Model
 from keras.layers import Flatten, Dense, Lambda, Convolution2D, Cropping2D
 from keras.layers.pooling import MaxPooling2D
@@ -118,9 +119,28 @@ def generator(samples, batch_size=32):
             outputs = np.array(angles)
             yield sklearn.utils.shuffle(inputs, outputs)
 			
-def getNvidiaModel():
+def getNvidiaModel1():
     """
-    @description: NVIDIA CNN model
+    @description: NVIDIA CNN model for keras 1
+    """
+    model = Sequential()
+    model.add(Lambda(lambda x: (x / 255.0) - 0.5, input_shape=(160,320,3)))
+    model.add(Cropping2D(cropping=((50,20), (0,0))))
+    model.add(Convolution2D(24,5,5, subsample=(2,2), activation='relu'))
+    model.add(Convolution2D(36,5,5, subsample=(2,2), activation='relu'))
+    model.add(Convolution2D(48,5,5, subsample=(2,2), activation='relu'))
+    model.add(Convolution2D(64,3,3, activation='relu'))
+    model.add(Convolution2D(64,3,3, activation='relu'))
+    model.add(Flatten())
+    model.add(Dense(100))
+    model.add(Dense(50))
+    model.add(Dense(10))
+    model.add(Dense(1))
+    return model
+	
+def getNvidiaModel2():
+    """
+    @description: NVIDIA CNN model for keras 2
     """
     model = Sequential()
     model.add(Lambda(lambda x: (x / 255.0) - 0.5, input_shape=(160,320,3)))
@@ -162,13 +182,29 @@ validation_generator = generator(validation_samples, batch_size=32)
 ####################################
 # Creating Model
 ####################################
-model = getNvidiaModel()
+if int(keras.__version__.split('.')[0]) < 2:
+   model = getNvidiaModel1()
+else:
+   model = getNvidiaModel2()
 
 ####################################
 # Compiling and training the model
+# NOTE: keras fit_generator is different in 1 and 2
 ####################################
 model.compile(loss='mse', optimizer='adam')
-history = model.fit_generator(train_generator, steps_per_epoch= \
+batch_size = 32
+epochs = 3
+
+if int(keras.__version__.split('.')[0]) < 2:
+   print("Found Keras Version 1")
+   history = model.fit_generator(train_generator, samples_per_epoch= \
                  len(train_samples) , validation_data=validation_generator, \
-                 validation_steps=len(validation_samples), epochs=1, verbose=1)
+                 nb_val_samples=len(validation_samples), nb_epoch=epochs, verbose=1)
+else:
+   print("Found Keras Version 2")
+   steps_per_epoch = len(train_samples)/batch_size
+   validation_steps = len(validation_samples)/batch_size
+   history = model.fit_generator(train_generator, steps_per_epoch= \
+                 steps_per_epoch , validation_data=validation_generator, \
+                 validation_steps=validation_steps, epochs=epochs, verbose=1)
 model.save('model.h5')
