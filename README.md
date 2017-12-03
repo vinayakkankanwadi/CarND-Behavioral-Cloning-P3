@@ -78,10 +78,13 @@ Quality of Code: Usable and Readable Code
 - [Code is clearly organized](/model.py#L122) 
 - [Code is commented where needed](/model.py#L16)  
 
+Model Architecture and Training Strategy: Appropriate model architecture
+---
+![](./writeup-images/model-summary.png)
 
-The model can be used to successfully operate the simulation.
-  - [video.mp4](./video.mp4) (a video recording of vehicle driving autonomously around the track for at least one full lap)
-  - [track1](./writeup-images/track1.gif) (a gif of video indicating the same)
+The neural network uses convolution layers with appropriate filter sizes. Layers exist to introduce nonlinearity into the model. The data is normalized in the model.
+
+
 
 
 NOTE:
