@@ -66,15 +66,26 @@ Required Files
 - [README.md](./README.md) (a report writeup markdown file)
 - [video.mp4](./video.mp4) (a video recording of vehicle driving autonomously around the track for at least one full lap)
 
-NOTE:
-* simulator
-
-
 Quality of Code: Functional Code 
 ---
 The model can be used to successfully operate the simulation.
   - [video.mp4](./video.mp4) (a video recording of vehicle driving autonomously around the track for at least one full lap)
   - [track1](./writeup-images/track1.gif) (a gif of video indicating the same)
+
+Quality of Code: Usable and Readable Code 
+---
+- [Python generator is used](./model.py#L93)
+- [Code is clearly organized](/model.py#L122) 
+- [Code is commented where needed](/model.py#L16)  
+
+
+The model can be used to successfully operate the simulation.
+  - [video.mp4](./video.mp4) (a video recording of vehicle driving autonomously around the track for at least one full lap)
+  - [track1](./writeup-images/track1.gif) (a gif of video indicating the same)
+
+
+NOTE:
+* simulator
 
 ### Dependencies
 This lab requires:
