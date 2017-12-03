@@ -8,6 +8,31 @@ Overview
 ---
 In this project, we will use deep neural networks and convolutional neural networks to clone driving behavior. We will train, validate and test a model using Keras. The model will output a steering angle to an autonomous vehicle.
 
+Goals
+---
+- Step01: The model can be used to successfully operate the simulation.
+- Step02: Using Python generator in in model.py to generate data with code organized and commented.
+- Step03: Using Convolution layers, filter, nonlinearity, data normalizarion into the model.
+- Step04: Using Train/validation/test for splits and methods to reduce overfitting in the model(dropout/others).
+- Step05: Using learning rate or Adam optimizer for overfitting.
+- Step06: Training data chosen to keep the car on the track.
+- Step07: Document the approach for deriving and designing a solution(model architecture fit).
+- Step08: Document the model architecture type used, layers, size using visualizations each qualities.
+- Step09: Document and provide sample how the model was trained and its dataset characteristics.
+- Step10: In Simulator No tire may leave the drivable portion of the track surface.
+- Step11: Can the model work for car to stay on the road for *track two* as well
+
+
+
+
+
+
+
+
+
+
+
+
 TODO
 ---
 We have provided a simulator where you can steer a car around a track for data collection. You'll use image data and steering angles to train a neural network and then use this model to drive the car autonomously around the track.
