@@ -24,8 +24,9 @@ Goals
 
 RESULT
 ---
-<img src="writeup-images/track1.gif" width="600" alt="Track1" />
-<img src="writeup-images/track2.gif" width="600" alt="Track1" />
+Track1                     |  Track2
+:-------------------------:|:-------------------------:
+!(<img src="writeup-images/track1.gif" width="320" height="160" alt="Track1" /> |  !<img src="writeup-images/track2.gif" width="320" height="160" alt="Track1" />
 
 FILES
 ---
