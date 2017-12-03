@@ -22,15 +22,22 @@ Goals
 - Step10: In Simulator No tire may leave the drivable portion of the track surface.
 - Step11: Can the model work for car to stay on the road for *track two* as well
 
+Approach
+---
+- Data: Use the simulator to collect data of good driving behavior.
+- Model: Design, train and validate a model to predicts a steering angle from image data.
+- Test: Use the model to drive the vehicle autonomously around the first track in the simulator. 
+- Document: Summarize the results in an written report.
+  **NOTE: The vehicle should remain on the road for an entire loop around the track.**
+
 Result
 ---
  Track1                     |  Track2
  :-------------------------:|:-------------------------:
  <img src="writeup-images/track1.gif" width="320" height="160" alt="Track1" /> |  <img src="writeup-images/track2.gif" width="320" height="160" alt="Track1" />
 
-FILES
+Files
 ---
-To meet specifications, the project will require submitting five files: 
 - [model.py](./model.py) (script used to create and train the model)
 - [drive.py](./drive.py) (script to drive the car - this file is unchanged)
 - [model.h5](./model.h5) (a trained Keras model)
@@ -48,15 +55,6 @@ A great writeup should include the [rubric points](https://review.udacity.com/#!
 
 All that said, please be concise!  We're not looking for you to write a book here, just a brief description of how you passed each rubric point, and references to the relevant code :). 
 
-You're not required to use markdown for your writeup.  If you use another method please just submit a pdf of your writeup.
-
-The Project
----
-The goals / steps of this project are the following:
-* Use the simulator to collect data of good driving behavior 
-* Design, train and validate a model that predicts a steering angle from image data
-* Use the model to drive the vehicle autonomously around the first track in the simulator. The vehicle should remain on the road for an entire loop around the track.
-* Summarize the results with a written report
 
 ### Dependencies
 This lab requires:
