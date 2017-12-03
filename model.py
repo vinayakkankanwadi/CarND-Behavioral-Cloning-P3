@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split    # split train test data
 #for model
 import keras
 from keras.models import Sequential, Model
-from keras.layers import Flatten, Dense, Lambda, Convolution2D, Cropping2D
+from keras.layers import Flatten, Dense, Lambda, Convolution2D, Cropping2D, Dropout
 from keras.layers.pooling import MaxPooling2D
 
 def getRelativeImagePath(dataPath, line):
@@ -132,7 +132,9 @@ def getNvidiaModel1():
     model.add(Convolution2D(64,3,3, activation='relu'))
     model.add(Convolution2D(64,3,3, activation='relu'))
     model.add(Flatten())
+    model.add(Dropout(0.5))
     model.add(Dense(100))
+    model.add(Dropout(0.5))
     model.add(Dense(50))
     model.add(Dense(10))
     model.add(Dense(1))
@@ -151,7 +153,9 @@ def getNvidiaModel2():
     model.add(Convolution2D(64,(3,3), activation='relu'))
     model.add(Convolution2D(64,(3,3), activation='relu'))
     model.add(Flatten())
+    model.add(Dropout(0.5))
     model.add(Dense(100))
+    model.add(Dropout(0.5))
     model.add(Dense(50))
     model.add(Dense(10))
     model.add(Dense(1))
@@ -193,7 +197,7 @@ else:
 ####################################
 model.compile(loss='mse', optimizer='adam')
 batch_size = 32
-epochs = 3
+epochs = 1
 
 if int(keras.__version__.split('.')[0]) < 2:
    print("Found Keras Version 1")
