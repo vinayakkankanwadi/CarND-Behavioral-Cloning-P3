@@ -163,8 +163,9 @@ def getNvidiaModel2():
 	
 ####################################
 # Reading images.
+# NOTE: input to getImages is where data is present 
 ####################################
-centerPaths, leftPaths, rightPaths, measurements = getImages('data-track1')
+centerPaths, leftPaths, rightPaths, measurements = getImages('data')
 imagePaths, measurements = combineImagesAndMeasurementsCorrection(centerPaths, leftPaths, rightPaths, measurements, 0.2)
 print('Total Images: {}'.format( len(imagePaths)))
 
@@ -201,11 +202,13 @@ epochs = 1
 
 if int(keras.__version__.split('.')[0]) < 2:
    print("Found Keras Version 1")
+   print(keras.__version__)
    history = model.fit_generator(train_generator, samples_per_epoch= \
                  len(train_samples) , validation_data=validation_generator, \
                  nb_val_samples=len(validation_samples), nb_epoch=epochs, verbose=1)
 else:
    print("Found Keras Version 2")
+   print(keras.__version__)
    steps_per_epoch = len(train_samples)/batch_size
    validation_steps = len(validation_samples)/batch_size
    history = model.fit_generator(train_generator, steps_per_epoch= \
