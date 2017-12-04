@@ -101,6 +101,12 @@ Model Architecture and Training Strategy: Appropriate model architecture
 - [Data is normalized](./model.py#L127): 
   - The first layer is lambda layer which is a convenient way to parallelize image normalization.
 
+#### Visualize model layer 1,2,3
+| Convolution Featues @1,2,3 Layers |
+:-------------------------:
+|<img src="./writeup-images/cnn-visualize.PNG" width="875" height="375" alt="CNN" /> 
+
+
 
 Model Architecture and Training Strategy: Reduce overfitting of the model
 ---
@@ -122,13 +128,6 @@ Model Architecture and Training Strategy: Tuning model parameters
   - of its per-parameter **learning rate**
   - combines the best properties of the AdaGrad and RMSProp algorithms
   - optimization algorithm that can handle sparse gradients on noisy problems
-
-#### Visualizations CNN Layer 1,2,3
-|CNN Layers |
-:-------------------------:
-|<img src="./writeup-images/cnn-visualize.PNG" width="875" height="375" alt="CNN" /> 
-
-
 
 Model Architecture and Training Strategy: Appropriate training data
 ---
