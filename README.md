@@ -80,7 +80,7 @@ Quality of Code: Usable and Readable Code
 
 Model Architecture and Training Strategy: Appropriate model architecture
 ---
-Network architecture consists of 9 layers 
+[Network architecture](./model.ipynb) *is modified from* [NVIDIA CNN](https://devblogs.nvidia.com/parallelforall/deep-learning-self-driving-cars/) is used which consists of 9 layers 
 - including a normalization layer
 - 5 convolutional layers, and 
 - 3 fully connected layers.
@@ -98,10 +98,6 @@ Network architecture consists of 9 layers
   - Nine layers: normalization, 5 convolution and 3 funny connected.
 - [Data is normalized](./model.py#L127): 
   - The first layer is lambda layer which is a convenient way to parallelize image normalization.
-
-##### NOTE
-- [USED CNN](./model.ipynb) *Modified from NVIDIA*
-- [NVIDIA REFERENCE](https://devblogs.nvidia.com/parallelforall/deep-learning-self-driving-cars/)
 
 
 Model Architecture and Training Strategy: Reduce overfitting of the model
