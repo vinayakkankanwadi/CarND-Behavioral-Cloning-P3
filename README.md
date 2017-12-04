@@ -36,7 +36,9 @@ Goals
 - Architecture and Training Documentation
   - Is the solution design documented?
     - Document the approach for deriving and designing a solution(model architecture fit)
+  - Is the model architecture documented?
     - Document the model architecture type used, layers, size using visualizations each qualities
+  - Is the creation of the training dataset and training process documented?
     - Document and provide sample how the model was trained and its dataset characteristics
 - Simulation
   - Is the car able to navigate correctly on test data?
@@ -128,6 +130,19 @@ Model Architecture and Training Strategy: Appropriate training data
   - Track one driving backward for one round
   - Track two driving forward for two rounds
 Forward and Backward data collected on track one was good enough with model to keep the car on track.
+
+Architecture and Training Documentation: Solution Design Documented
+---
+- Document the approach for deriving and designing a solution(model architecture fit)
+
+Architecture and Training Documentation: Model Architecture Documented
+---
+- Document the model architecture type used, layers, size using visualizations each qualities
+
+
+Architecture and Training Documentation: Creation of Training dataset and training process Documented
+---
+    - Document and provide sample how the model was trained and its dataset characteristics
 
 NOTE:
 * simulator
