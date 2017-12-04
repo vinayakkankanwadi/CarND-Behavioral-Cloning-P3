@@ -99,8 +99,8 @@ Network architecture consists of 9 layers
 - Data is normalized: 
   - The first layer is lambda layer which is a convenient way to parallelize image normalization.
 
-</br>###[USED CNN](./model.ipynb) *Modified from NVIDIA*
-</br>###[NVIDIA REFERENCE](https://devblogs.nvidia.com/parallelforall/deep-learning-self-driving-cars/)
+### [USED CNN](./model.ipynb) *Modified from NVIDIA*
+### [NVIDIA REFERENCE](https://devblogs.nvidia.com/parallelforall/deep-learning-self-driving-cars/)
 
 
 Model Architecture and Training Strategy: Reduce overfitting of the model
