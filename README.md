@@ -85,8 +85,7 @@ Model Architecture and Training Strategy: Appropriate model architecture
  :-------------------------:|:-------------------------:
  <img src="./writeup-images/cnn-architecture.png" width="300" height="575" alt="NVIDIA" /> |  <img src="./writeup-images/model-summary.PNG" width="600" height="575" alt="USED" />
  
-[NVIDIA REFERENCE](https://devblogs.nvidia.com/parallelforall/deep-learning-self-driving-cars/)
-</br>[NVIDIA CNN](https://devblogs.nvidia.com/parallelforall/wp-content/uploads/2016/08/cnn-architecture-624x890.png)
+- [NVIDIA REFERENCE](https://devblogs.nvidia.com/parallelforall/deep-learning-self-driving-cars/)
 
 
 Model Architecture and Training Strategy: Reduce overfitting of the model
