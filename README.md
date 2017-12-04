@@ -123,6 +123,13 @@ Model Architecture and Training Strategy: Tuning model parameters
   - combines the best properties of the AdaGrad and RMSProp algorithms
   - optimization algorithm that can handle sparse gradients on noisy problems
 
+#### Visualizations CNN Layer 1,2,3
+|CNN Layers |
+:-------------------------:
+|<img src="./writeup-images/cnn-visualize.PNG" width="875" height="375" alt="CNN" /> 
+
+
+
 Model Architecture and Training Strategy: Appropriate training data
 ---
 Forward and Backward [training data collected]((./sample-images)) on track one was good enough with model to keep the car on track.
