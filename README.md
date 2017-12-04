@@ -183,3 +183,9 @@ Dependencies
 - [SIMULATOR](https://github.com/udacity/self-driving-car-sim)
 - [ENVIRONMENT](https://github.com/udacity/CarND-Term1-Starter-Kit)
 
+Conclusion
+---
+With every project exercise on deep/machine learning it becomes obvious and very much reiterated that it really is all about the data.
+Changing model rarely has quite the impact than changing the fundaments of training data.
+**ALL ABOUT DATA**
+**JUNK IN JUNK OUT**
