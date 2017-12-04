@@ -83,7 +83,7 @@ Model Architecture and Training Strategy: Appropriate model architecture
 [NVIDIA REFERENCE](https://devblogs.nvidia.com/parallelforall/deep-learning-self-driving-cars/)
 </br>[NVIDIA CNN](https://devblogs.nvidia.com/parallelforall/wp-content/uploads/2016/08/cnn-architecture-624x890.png)
 
-</br><img src="./writeup-images/cnn-architecture.png" width="624" height="600">
+</br><img src="./writeup-images/cnn-architecture.png" width="424" height="500">
 
 </br>MODIFIED NVIDIA CNN USED
 </br><img src="./writeup-images/model-summary.PNG" width="788" height="594">
