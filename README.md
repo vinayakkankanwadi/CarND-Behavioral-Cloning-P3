@@ -10,17 +10,17 @@ In this project, we will use deep neural networks and convolutional neural netwo
 
 Goals
 ---
-- Required Files
+- [Required Files](./README.md#required-files)
   - Are all required files submitted?
     - Includes a model.py file, drive.py, model.h5 a writeup report and video.mp4.
-- Quality of Code
-  - Is the code functional?
+- [Quality of Code](./README.md#quality-of-code-functional-code)
+  - Is the code functional?(./README.md#quality-of-code-functional-code)
     - The model can be used to successfully operate the simulation.
   - Is the code usable and readable?
     - Python generator used if needed
     - Code is clearly organized
     - Code is commented where needed    
-- Model Architecture and Training Strategy
+- [Model Architecture and Training Strategy](./README.md#model-architecture-and-training-strategy-appropriate-model-architecture)
   - Has an appropriate model architecture been employed for the task?
     - Neural network uses convolution layers
     - Uses appropriate filter sizes
@@ -33,7 +33,7 @@ Goals
     - Learning rate parameters are chosen with explanation, or an Adam optimizer is used.
   - Is the training data chosen appropriately?
     - Training data chosen to keep the car on the track
-- Architecture and Training Documentation
+- [Architecture and Training Documentation](./README.md#architecture-and-training-documentation-solution-design-documented)
   - Is the solution design documented?
     - Document the approach for deriving and designing a solution(model architecture fit)
   - Is the model architecture documented?
