@@ -108,7 +108,7 @@ Model Architecture and Training Strategy: Reduce overfitting of the model
   - Dropout layers used @ 0.5
   - epochs have been reduced to 3 to reduce overfitting.
 
-**Mean Squared error loss**                     
+**Mean Squared error loss**                                                             |
  :---------------------------------------------------------------------------------------:
  <img src="./writeup-images/overfitting.PNG" width="725" height="375" alt="Overfitting" /> 
 
