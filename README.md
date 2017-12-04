@@ -89,18 +89,18 @@ Network architecture consists of 9 layers
  :-------------------------:|:-------------------------:
  <img src="./writeup-images/cnn-architecture.png" width="300" height="575" alt="NVIDIA" /> |  <img src="./writeup-images/model-summary.PNG" width="600" height="575" alt="USED" />
 
-- Neural network uses convolution layers: 
+- [Neural network uses convolution layers](./model.py#L122): 
   - Feature extraction using convolution layers
-- Uses appropriate filter sizes:
+- [Uses appropriate filter sizes](./model.py#L131):
   - first three convolutional layers with a 2×2 stride and a 5×5 kernel
   - next two convolution layes with a non-strided convolution with a 3×3 kernel size
-- Nonlinearity using layers:
+- [Nonlinearity using layers](./model.py#L129):
   - Nine layers: normalization, 5 convolution and 3 funny connected.
-- Data is normalized: 
+- [Data is normalized](./model.py#L127): 
   - The first layer is lambda layer which is a convenient way to parallelize image normalization.
 
-### [USED CNN](./model.ipynb) *Modified from NVIDIA*
-### [NVIDIA REFERENCE](https://devblogs.nvidia.com/parallelforall/deep-learning-self-driving-cars/)
+##### [USED CNN](./model.ipynb) *Modified from NVIDIA*
+##### [NVIDIA REFERENCE](https://devblogs.nvidia.com/parallelforall/deep-learning-self-driving-cars/)
 
 
 Model Architecture and Training Strategy: Reduce overfitting of the model
