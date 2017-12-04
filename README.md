@@ -102,6 +102,11 @@ Model Architecture and Training Strategy: Appropriate model architecture
 
 Model Architecture and Training Strategy: Reduce overfitting of the model
 ---
+- Split Train/validation/test data
+- Using Dropout/other methods to reduce overfitting 
+    
+Train/validation/test splits have been used, and the model uses dropout layers or other methods to reduce overfitting.
+
 
 Has an attempt been made to reduce overfitting of the model?
 
