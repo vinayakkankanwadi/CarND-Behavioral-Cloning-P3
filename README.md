@@ -161,7 +161,7 @@ Architecture and Training Documentation: Solution Design Documented
 ---
 [Solution Design](./README.md#approach)
 - [Data collection](./README.md#model-architecture-and-training-strategy-appropriate-training-data)
-- [Model Architection](./README.md#model-architecture-and-training-strategy-appropriate-model-architecture)
+- [Model Architecture](./README.md#model-architecture-and-training-strategy-appropriate-model-architecture)
 - [Result](./README.md#result)
 
 Architecture and Training Documentation: Model Architecture Documented
