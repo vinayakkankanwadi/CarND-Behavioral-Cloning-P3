@@ -81,12 +81,12 @@ Quality of Code: Usable and Readable Code
 Model Architecture and Training Strategy: Appropriate model architecture
 ---
 
- **NVIDIA CNN**                     |  **USED CNN**(*modified NVIDIA CNN*)
+ **NVIDIA CNN**                     |  **USED CNN** *modified NVIDIA CNN*
  :-------------------------:|:-------------------------:
  <img src="./writeup-images/cnn-architecture.png" width="300" height="575" alt="NVIDIA" /> |  <img src="./writeup-images/model-summary.PNG" width="600" height="575" alt="USED" />
  
 - [NVIDIA REFERENCE](https://devblogs.nvidia.com/parallelforall/deep-learning-self-driving-cars/)
-- [USED CNN *Modified NVIDIA CNN*](./model.ipynb)
+- [USED CNN](./model.ipynb) *Modified NVIDIA CNN*
 
 
 Model Architecture and Training Strategy: Reduce overfitting of the model
