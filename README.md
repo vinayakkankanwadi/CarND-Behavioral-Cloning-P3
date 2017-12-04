@@ -153,12 +153,10 @@ Architecture and Training Documentation: Solution Design Documented
 Architecture and Training Documentation: Model Architecture Documented
 ---
 [Model Architecture](./README.md#model-architecture-and-training-strategy-appropriate-model-architecture)
-- Document the model architecture type used, layers, size using visualizations each qualities
-
 
 Architecture and Training Documentation: Creation of Training dataset and training process Documented
 ---
-    - Document and provide sample how the model was trained and its dataset characteristics
+[Training dataset creation and training process](./README.md#model-architecture-and-training-strategy-appropriate-training-data)
 
 NOTE:
 * simulator
