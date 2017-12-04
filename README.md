@@ -85,6 +85,20 @@ Model Architecture and Training Strategy: Appropriate model architecture
 </br>MODIFIED NVIDIA CNN USED
 </br><img src="./writeup-images/model-summary.PNG" width="788" height="594">
 
+Model Architecture and Training Strategy: Reduce overfitting of the model
+---
+
+Has an attempt been made to reduce overfitting of the model?
+
+Model Architecture and Training Strategy: Tuning model parameters
+---
+Have the model parameters been tuned appropriately
+
+Model Architecture and Training Strategy: Appropriate training data
+---
+Is the training data chosen appropriately?
+
+
 The neural network uses convolution layers with appropriate filter sizes. Layers exist to introduce nonlinearity into the model. The data is normalized in the model.
 
 The first layer of the network performs image normalization. The normalizer is hard-coded and is not adjusted in the learning process. Performing normalization in the network allows the normalization scheme to be altered with the network architecture, and to be accelerated via GPU processing.
