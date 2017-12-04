@@ -107,7 +107,12 @@ Model Architecture and Training Strategy: Reduce overfitting of the model
 - [Using Dropout/other methods to reduce overfitting](./model.py#L156)
   - Dropout layers used @ 0.5
   - epochs have been reduced to 3 to reduce overfitting.
-  
+
+**Mean Squared error loss**                     
+ :-------------------------:
+ <img src="./writeup-images/overfitting.PNG" width="300" height="300" alt="Overfitting" /> 
+
+   
 Model Architecture and Training Strategy: Tuning model parameters
 ---
 Have the model parameters been tuned appropriately
