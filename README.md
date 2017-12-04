@@ -145,8 +145,8 @@ Forward and Backward [training data collected]((./sample-images)) on track one w
 :-------------------------:|:-------------------------:|:-------------------------:
 |<img src="./sample-images/left_2017_12_01_21_37_37_046.jpg" width="320" height="160" alt="left" /> |  <img src="./sample-images/center_2017_12_01_21_37_37_046.jpg" width="320" height="160" alt="center" /> |  <img src="./sample-images/right_2017_12_01_21_37_37_046.jpg" width="320" height="160" alt="Track1" />|
 
-#### Data Augmentation example
-|Horizontal Flip        |
+#### Data Augmentation Example
+|Horizontal Flip and BGR2RGB |
 :-------------------------:
 |<img src="./writeup-images/data-augmentation.PNG" width="375" height="375" alt="data-augment" /> 
 
