@@ -137,7 +137,7 @@ Forward and Backward [training data collected]((./sample-images)) on track one w
 
 |left                     |  center        |  right|
 :-------------------------:|:-------------------------:|:-------------------------:
-|<img src="./sample-images/left_2017_12_03_14_38_46_010.jpg" width="320" height="160" alt="left" /> |  <img src="./sample-images/center_2017_12_03_14_38_46_010.jpg" width="320" height="160" alt="center" /> |  <img src="./sample-images/right_2017_12_03_14_38_46_010.jpg" width="320" height="160" alt="Track1" />|
+|<img src="./sample-images/left_2017_12_03_14_48_11_010.jpg" width="320" height="160" alt="left" /> |  <img src="./sample-images/center_2017_12_03_14_48_11_010.jpg" width="320" height="160" alt="center" /> |  <img src="./sample-images/right_2017_12_03_14_48_11_010.jpg" width="320" height="160" alt="Track1" />|
 
 ##### TRACK TWO driving forward for two rounds
 
