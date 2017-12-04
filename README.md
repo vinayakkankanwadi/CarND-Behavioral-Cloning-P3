@@ -102,14 +102,12 @@ Model Architecture and Training Strategy: Appropriate model architecture
 
 Model Architecture and Training Strategy: Reduce overfitting of the model
 ---
-- Split Train/validation/test data
-- Using Dropout/other methods to reduce overfitting 
-    
-Train/validation/test splits have been used, and the model uses dropout layers or other methods to reduce overfitting.
-
-
-Has an attempt been made to reduce overfitting of the model?
-
+- [Split Train/validation/test data](./model.py#L176)
+  - Train/validation/test splits have been used with **test_size=0.2**
+- [Using Dropout/other methods to reduce overfitting](./model.py#L156)
+  - Dropout layers used @ 0.5
+  - epochs have been reduced to 3 to reduce overfitting.
+  
 Model Architecture and Training Strategy: Tuning model parameters
 ---
 Have the model parameters been tuned appropriately
