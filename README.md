@@ -110,7 +110,7 @@ Model Architecture and Training Strategy: Reduce overfitting of the model
 
 **Mean Squared error loss**                     
  :-------------------------:
- <img src="./writeup-images/overfitting.PNG" width="300" height="300" alt="Overfitting" /> 
+ <img src="./writeup-images/overfitting.PNG" width="600" height="300" alt="Overfitting" /> 
 
    
 Model Architecture and Training Strategy: Tuning model parameters
