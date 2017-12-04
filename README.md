@@ -109,8 +109,8 @@ Model Architecture and Training Strategy: Reduce overfitting of the model
   - epochs have been reduced to 3 to reduce overfitting.
 
 **Mean Squared error loss**                     
- :-------------------------:
- <img src="./writeup-images/overfitting.PNG" width="600" height="300" alt="Overfitting" /> 
+ :---------------------------------------------------------------------------------------:
+ <img src="./writeup-images/overfitting.PNG" width="725" height="375" alt="Overfitting" /> 
 
    
 Model Architecture and Training Strategy: Tuning model parameters
