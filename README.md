@@ -148,7 +148,10 @@ Forward and Backward [training data collected]((./sample-images)) on track one w
 
 Architecture and Training Documentation: Solution Design Documented
 ---
-- Document the approach for deriving and designing a solution(model architecture fit)
+[Solution Design](./README.md#approach)
+- [Data collection](./README.md#model-architecture-and-training-strategy-appropriate-training-data)
+- [Model Architection](./README.md#model-architecture-and-training-strategy-appropriate-model-architecture)
+- [Result](./README.md#result)
 
 Architecture and Training Documentation: Model Architecture Documented
 ---
