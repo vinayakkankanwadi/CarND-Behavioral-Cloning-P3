@@ -170,8 +170,8 @@ Architecture and Training Documentation: Model Architecture Documented
 
 Architecture and Training Documentation: Creation of Training dataset and training process Documented
 ---
-[Training dataset creation](./README.md#model-architecture-and-training-strategy-appropriate-training-data)
-[Training process](./README.md#model-architecture-and-training-strategy-reduce-overfitting-of-the-model)
+- [Training dataset creation](./README.md#model-architecture-and-training-strategy-appropriate-training-data)
+- [Training process](./README.md#model-architecture-and-training-strategy-reduce-overfitting-of-the-model)
 
 Simulation
 ---
