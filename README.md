@@ -192,8 +192,8 @@ Track two
 
 Dependencies
 ---
-- [SIMULATOR](https://github.com/udacity/self-driving-car-sim)
-- [ENVIRONMENT](https://github.com/udacity/CarND-Term1-Starter-Kit)
+- [SIMULATOR](https://github.com/udacity/self-driving-car-sim) Udacity/self-driving-car-sim
+- [ENVIRONMENT](https://github.com/udacity/CarND-Term1-Starter-Kit) Udacity/CarND-Term1-Starter-Kit
 
 Conclusion
 ---
