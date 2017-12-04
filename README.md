@@ -120,13 +120,14 @@ Model Architecture and Training Strategy: Tuning model parameters
   - of its per-parameter **learning rate**
   - combines the best properties of the AdaGrad and RMSProp algorithms
   - optimization algorithm that can handle sparse gradients on noisy problems
-    
 
 Model Architecture and Training Strategy: Appropriate training data
 ---
-Is the training data chosen appropriately?
-
-
+- [Training data captured included]
+  - Track one driving forward for two rounds
+  - Track one driving backward for one round
+  - Track two driving forward for two rounds
+Forward and Backward data collected on track one was good enough with model to keep the car on track.
 
 NOTE:
 * simulator
