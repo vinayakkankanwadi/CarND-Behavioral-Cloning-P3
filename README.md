@@ -115,7 +115,11 @@ Model Architecture and Training Strategy: Reduce overfitting of the model
    
 Model Architecture and Training Strategy: Tuning model parameters
 ---
-Have the model parameters been tuned appropriately
+- [Have the model parameters been tuned appropriately](./model.py#L199)
+  - Adam optimizer used for
+    - per-parameter **learning rate** that improves performance on problems with sparse gradients (Computer Vision problems)
+    - maintaining per-parameter **learning rates** which adapt based on the average of recent magnitudes of the gradients for the weight.
+  
 
 Model Architecture and Training Strategy: Appropriate training data
 ---
