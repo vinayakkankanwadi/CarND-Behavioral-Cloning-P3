@@ -152,6 +152,7 @@ Architecture and Training Documentation: Solution Design Documented
 
 Architecture and Training Documentation: Model Architecture Documented
 ---
+[Model Architecture](./README.md#model-architecture-and-training-strategy-appropriate-model-architecture)
 - Document the model architecture type used, layers, size using visualizations each qualities
 
 
