@@ -172,6 +172,8 @@ Track two
 ---
 [Video showing](./track2.mp4)
 - The car is able to navigate autonomously most of the track two in the simulator using the created [model](./model.h5)
+
+#### Reflection on track two
 - The model seems to struggle on on sharp turns on track two
 - The car did better on fidling with speed, throtle parameter
 - More data augmentation would help get better result on track two.
