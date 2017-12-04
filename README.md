@@ -187,5 +187,5 @@ Conclusion
 ---
 With every project exercise on deep/machine learning it becomes obvious and very much reiterated that it really is all about the data.
 Changing model rarely has quite the impact than changing the fundaments of training data.
-</br>**ALL ABOUT DATA**
-</br>**JUNK IN JUNK OUT**
+</br>**ITS ALL ABOUT DATA**
+</br>**JUNK IN -> JUNK OUT**
