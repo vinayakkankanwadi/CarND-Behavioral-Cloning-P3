@@ -40,10 +40,10 @@ Goals
     - Document the model architecture type used, layers, size using visualizations each qualities
   - Is the creation of the training dataset and training process documented?
     - Document and provide sample how the model was trained and its dataset characteristics
-- Simulation
+- [Simulation](./README.md#simulation)
   - Is the car able to navigate correctly on test data?
     - In Simulator No tire may leave the drivable portion of the track surface
-- Track Two
+- [Track Two](./README.md#track-two)
   - Can the model work for car to stay on the road for **track two** as well
 
 Approach
